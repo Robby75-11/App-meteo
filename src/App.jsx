@@ -54,10 +54,9 @@ function App() {
 
   return (
     <div>
-      {" "}
-      {/* Aggiunte le classi bg-success e text-light */}
+      {""}
       <MyNavbar />
-      <Container className="mt-4 vh-100 ">
+      <Container className="mt-5  ">
         <h1>GloboMeteo</h1>
         <SearchBar onSearch={handleSearch} />
 
