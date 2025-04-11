@@ -1,8 +1,8 @@
 body {
   display: flex;
   justify-content: center; 
-  min-height: 100vh; 
-  background-color: green;
+ background-color: green;
+
   color: #f8f9fa;
 }
 

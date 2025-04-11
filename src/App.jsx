@@ -53,10 +53,10 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="bg-primary min-vh-100 ">
       {""}
       <MyNavbar />
-      <Container className="mt-5  ">
+      <Container className="mt-5 bg-light py-2 ">
         <h1>GloboMeteo</h1>
         <SearchBar onSearch={handleSearch} />
 

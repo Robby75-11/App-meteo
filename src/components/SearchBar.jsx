@@ -28,7 +28,7 @@ function SearchBar({ onSearch }) {
           />
         </Col>
         <Col md={3}>
-          <Button type="submit" className="w-100">
+          <Button type="submit" className="w-50">
             Cerca
           </Button>
         </Col>
