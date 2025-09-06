@@ -1,12 +1,11 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-
 function CurrentWeather({ weatherData }) {
   if (!weatherData) {
     return <p>Inserisci una città per visualizzare il meteo.</p>;
   }
 
-  const { name, sys, main, weather, wind } = weatherData;
+  const { name, sys, main, weather, wind, sea } = weatherData;
   const iconUrl = `https://openweathermap.org/img/wn/${weather[0]?.icon}@2x.png`;
 
   return (

@@ -23,6 +23,8 @@ function SearchBar({ onSearch }) {
           <FormControl
             type="text"
             placeholder="Inserisci la città"
+            className="w-75
+            "
             value={city}
             onChange={handleChange}
           />
